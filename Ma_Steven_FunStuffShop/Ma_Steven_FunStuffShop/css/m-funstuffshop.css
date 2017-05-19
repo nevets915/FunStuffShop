@@ -1,0 +1,104 @@
+body{
+    font-family: Arial, Helvetica,sans-serif;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+nav#leftbox {
+    float: left;
+    width: 30%;
+}
+
+nav#leftbox ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav#leftbox ul {
+    background: #ff0000;
+    padding-left: 5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+@media only screen and (max-width:768px) {
+    nav#leftbox, header#rightbox, article#main {
+        display: block;
+        width: 100%;
+ }
+    #orca{
+        display:none;
+    }
+}
+
+nav#leftbox ul a {
+    color: #ffffff;
+    font-size: 1.6em;
+    text-decoration: none;
+}
+
+nav#leftbox ul a:hover {
+    color: yellow;
+}
+
+nav#leftbox ul:nth-child(2):first-letter {
+    color: black;
+    vertical-align: top;
+}
+
+nav#leftbox ul:nth-child(3):first-letter {
+    color: blue;
+    vertical-align: top;
+}
+
+nav#leftbox ul:nth-child(4):first-letter {
+    color: teal;
+    vertical-align: top;
+}
+
+nav#leftbox ul:nth-child(5):first-letter {
+    color: lime;
+    vertical-align: top;
+}
+
+nav#leftbox ul:nth-child(6):first-letter {
+    color: maroon;
+    vertical-align: top;
+}
+
+nav#leftbox ul:nth-child(7):first-letter {
+    color: aqua;
+    vertical-align: top;
+}
+
+nav#leftbox ul:nth-child(8):first-letter {
+    color: silver;
+    vertical-align: top;
+}
+
+nav#leftbox ul:nth-child(9):first-letter {
+    color: navy;
+    vertical-align: top;
+}
+
+header#rightbox h6{
+    text-align: center;
+    font-weight: 900;
+    font-size: 300%;
+    text-shadow: 5px 5px 3px #cccccc;
+}
+
+article{
+    font-size: 1.5em;
+    text-align: center;
+}
+
+#orca{
+    position: absolute;
+    left: 60%;
+    top: 0px;
+    z-index: 0;
+    opacity: .6;
+}
